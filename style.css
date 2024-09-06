@@ -1,0 +1,27 @@
+.nav-link:hover{   
+   border-bottom: 2px solid ; 
+   color: orange; 
+   border-color:violet;
+}
+.border{
+   border:2px solid black !important;
+}
+
+
+h1{
+   color: blueviolet;
+   text-transform: uppercase;
+   animation: slideinleft 5s linear;
+   animation-direction: normal;
+   animation-fill-mode: both;
+
+}
+@keyframes slideinleft{
+   from{
+      transform: translateX(-1000px);
+   }
+   to{
+      transform: translateX(0);
+   }
+}
+  
